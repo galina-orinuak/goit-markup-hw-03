@@ -1,6 +1,7 @@
 .list {list-style: none;
 margin: 0;
 padding: 0 ;}
+
 .link {text-decoration: none;}
 
 .body_page{font-family: "Roboto", sans-serif;
@@ -9,10 +10,32 @@ padding: 0 ;}
 
 :root{}
 
+h1,h2,h3,p{margin-top: 0; margin-bottom:0 ;}
+
+ul,ol {margin-top: 0;margin-bottom: 0; padding-left: 0;}
+
+img {display: block ;}
+
 .container {margin-left:auto;
 margin-right: auto;
-width: 1440 px;}
+width: 1152px;
+padding-left: 12px;
+padding-right: 12px;}
 
+.header-container {display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.page-header {padding-top: 25.5px;
+padding-bottom: 25.5px; ;}
+
+.page-nav {display: flex;
+align-items: center;}
+
+.header-list {display:flex;
+align-items: center;}
+
+.header-link:not(:last-child) {margin-right: 40px;}
 
 .logo {font-family: 'Raleway',sans-serif;
     font-weight: 800;
@@ -20,7 +43,8 @@ width: 1440 px;}
     line-height: 1.17;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;}
+    color: #4D5AE5;
+margin-right: 76px;}
 
 .second-logo {font-family: 'Raleway',sans-serif;
     font-weight: 800;
@@ -42,7 +66,11 @@ width: 1440 px;}
 .header-item:focus
 {color: #404BBF;}   
 
-.address{font-style: normal}
+.address{font-style: normal;
+}
+
+.address-list {display:flex;
+    align-items: center;}
 
 .address_item {font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -56,6 +84,9 @@ width: 1440 px;}
 
 .address_item:hover,
 .address_item:focus {color: #404BBF;}
+
+.mail{margin-right: 40px;}
+
 
 .section-one{background-color: #2e2f42;
 text-align: center;}
