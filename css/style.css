@@ -87,9 +87,10 @@ margin-right: 76px;}
 
 .mail{margin-right: 40px;}
 
-
 .section-one{background-color: #2e2f42;
-text-align: center;}
+text-align: center;
+padding-top: 188px;
+padding-bottom: 188px;}
 
 .main-h {margin-top: 0;
     margin-bottom: 48px; 
@@ -102,10 +103,12 @@ text-align: center;}
     color: #FFFFFF;} 
 
 
-.modal-btn {display: inline-block;
+.modal-btn {
+    min-width: 169px;
+    display: inline-block;
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px 32px;
+    padding: 16px 20px;
     gap: 10px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
