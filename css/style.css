@@ -104,6 +104,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   cursor: pointer;
+  padding: 24px 0;
 }
 
 .header-item:hover,
@@ -115,7 +116,7 @@ img {
   font-style: normal;
 }
 
-.list_address {
+.list_adrs {
   display: flex;
   align-items: center;
   gap: 40px
@@ -414,6 +415,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 32px;
+  margin-bottom: 8px 
 }
 
 .portfolio_text {
