@@ -48,11 +48,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1158px; 
+  padding: 0 15px 0 15px;
 }
 
 .page-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .page-nav {
@@ -63,6 +66,9 @@ img {
 .header-list {
   display: flex;
   align-items: center;
+}
+
+.header-link{padding: 24px 0 24px;
 }
 
 .header-link:not(:last-child) {
@@ -109,9 +115,10 @@ img {
   font-style: normal;
 }
 
-.address-list {
+.list_address {
   display: flex;
   align-items: center;
+  gap: 40px
 }
 
 .address_item {
@@ -156,12 +163,14 @@ img {
 
 .modal-btn {
   min-width: 169px;
-  display: inline-block;
+  height: 56px;
+  display: block;
   flex-direction: row;
   align-items: flex-start;
+  border: none;
+  background-color: #4d5ae5;
   padding: 16px 20px;
   gap: 10px;
-  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -179,14 +188,17 @@ img {
   background-color: #404bbf;
 }
 
-.sectio-two {
+.section-two {
   margin-top: 120px;
   margin-bottom: 120px;
+  padding: 120px 0 120px;
 }
 
 .section_two_list {
   display: flex;
 }
+
+.section-two-object {width: calc((100% - 72px) / 4); }
 
 .section-two-object:not(:last-child) {
   margin-right: 24px;
@@ -215,11 +227,14 @@ img {
 
 .section-three {
   margin-bottom: 120px;
+  padding-bottom: 120px; 
 }
 
 .section-three-list {
   display: flex;
 }
+
+.section_three_images {width: calc((100% - 48px) / 3); }
 
 .section_three_images:not(:last-child) {
   margin-right: 24px;
@@ -246,6 +261,12 @@ img {
 .section_four_list {
   display: flex;
 }
+
+.position_container {padding: 32px 16px;
+}
+
+.section_four_item{ width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;}
 
 .section_four_item:not(:last-child) {
   margin-right: 24px;
@@ -281,6 +302,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
+  
 }
 
 .position {
@@ -294,6 +316,9 @@ img {
   color: #434455;
 }
 
+.logo-footer{ display: inline-block;
+  margin-bottom: 16px; }
+
 .second-logo-footer {
   font-family: 'Raleway';
   font-weight: 800;
@@ -304,8 +329,7 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer_text {
@@ -320,6 +344,8 @@ img {
   margin-top: 17.5px;
 }
 
+.portfolio-section {padding: 96px 0 120px;}
+
 .portfolio_buttons {
   display: flex;
   justify-content: center;
@@ -330,6 +356,7 @@ img {
 .button_item:not(:last-child) {
   margin-right: 24px;
 }
+
 
 .portfolio_btn {
   display: flex;
@@ -356,21 +383,27 @@ img {
 .portfolio_btn:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
-.img_list {
+.list_img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.img_container {
-  margin-bottom: 120px;
-}
 
 .img_item {
   border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3); 
+}
+
+.text_container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+  margin-bottom: 8px 
 }
 
 .portfolio_h {
@@ -381,8 +414,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .portfolio_text {
@@ -392,6 +423,4 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
