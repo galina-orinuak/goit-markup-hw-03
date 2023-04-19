@@ -151,6 +151,7 @@ img {
 }
 
 .main-h {
+  max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;
   font-family: 'Roboto', sans-serif;
@@ -159,8 +160,7 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
-}
+  color: #ffffff;}
 
 .modal-btn {
   min-width: 169px;
@@ -199,7 +199,7 @@ img {
   display: flex;
 }
 
-.section-two-object {width: calc((100% - 72px) / 4); }
+.section-two-object {width: calc((100%-72px)/4);}
 
 .section-two-object:not(:last-child) {
   margin-right: 24px;
@@ -235,7 +235,7 @@ img {
   display: flex;
 }
 
-.section_three_images {width: calc((100% - 48px) / 3); }
+.section_three_images {width: calc((100%-48px)/3); }
 
 .section_three_images:not(:last-child) {
   margin-right: 24px;
@@ -266,7 +266,7 @@ img {
 .position_container {padding: 32px 16px;
 }
 
-.section_four_item{ width: calc((100% - 72px) / 4); 
+.section_four_item{ width: calc((100%-72px)/4); 
   border-radius: 0px 0px 4px 4px;}
 
 .section_four_item:not(:last-child) {
@@ -350,14 +350,9 @@ img {
 .portfolio_buttons {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
+  gap: 24px; 
   margin-bottom: 72px;
 }
-
-.button_item:not(:last-child) {
-  margin-right: 24px;
-}
-
 
 .portfolio_btn {
   display: flex;
@@ -397,7 +392,7 @@ img {
 
 .img_item {
   border: 1px solid #e7e9fc;
-  width: calc((100% - 48px) / 3); 
+  width: calc((100% - 48px)/3); 
 }
 
 .text_container {
