@@ -284,7 +284,7 @@ img {
 
 .section_four_item 
 {/*width: calc((100%-72px)/4)*/;
-width: 264px; 
+flex-basis: calc((100% - 3 * 24px) / 4);
 border-radius: 0px 0px 4px 4px;}
 
 .name {
@@ -383,14 +383,14 @@ border-radius: 0px 0px 4px 4px;}
 }
 
 .img_item {
-  border: 1px solid #e7e9fc;
+  /*border: 1px solid #e7e9fc;*/
   /*width: calc((100% - 48px)/3);*/
-  width: 360px;
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .text_container {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
+  border: 1px solid #e7e9fc;
   border-top: none;
   /*margin-bottom: 8px*/
 }
@@ -403,7 +403,7 @@ border-radius: 0px 0px 4px 4px;}
   letter-spacing: 0.02em;
   color: #2e2f42;
   /*margin-top: 32px;*/
-  /*margin-bottom: 8px*/
+  margin-bottom: 8px;
 }
 
 .portfolio_text {
